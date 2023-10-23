@@ -1,2 +1,2 @@
-# multi-video-player
+# Multi-video-player
 Multi Video Player System 
