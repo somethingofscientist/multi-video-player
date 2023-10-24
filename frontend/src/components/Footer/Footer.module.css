@@ -1,0 +1,21 @@
+.container {
+    height: 200px;
+}
+
+.left {}
+
+.right {}
+
+.ads_banner {
+    margin: auto;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ads_banner img {
+    width: 100%;
+    height: 200px;
+    margin-right: 20px;
+}
