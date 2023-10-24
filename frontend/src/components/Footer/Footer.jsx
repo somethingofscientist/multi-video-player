@@ -1,7 +1,14 @@
 import React from 'react'
 import styles from './Footer.module.css'
+import paypal from '../../images/payment_images/paypal.png'
+import paytm from '../../images/payment_images/paytm.png'
+import master_card from '../../images/payment_images/master_card.png'
+import visa from '../../images/payment_images/visa.png'
 
 import Marquee from "react-fast-marquee";
+import { SiPaytm } from 'react-icons/si'
+import { FaCcPaypal, FaCcVisa } from 'react-icons/fa'
+import { BiLogoMastercard } from 'react-icons/bi'
 
 
 const Footer = () => {
@@ -38,8 +45,6 @@ const Footer = () => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.left}></div>
-                <div className={styles.right}></div>
                 <Marquee>
                     <div className={styles.ads_banner}>
                         {
@@ -49,6 +54,57 @@ const Footer = () => {
                         }
                     </div>
                 </Marquee>
+                <div className={styles.left}>
+                    <div className={styles.left_heading}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi reiciendis obcaecati repudiandae minima nihil amet optio dolorum, dolorem nisi corrupti blanditiis fugiat vero, voluptatem iusto ducimus natus dicta assumenda!
+                    </div>
+                    <div className={styles.left_sub_heading}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi reiciendis obcaecati repudiandae minima nihil amet optio dolorum, dolorem nisi corrupti blanditiis fugiat vero, voluptatem iusto ducimus natus dicta assumenda!
+                    </div>
+                    <div className={styles.left_heading}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi reiciendis obcaecati repudiandae minima nihil amet optio dolorum, dolorem nisi corrupti blanditiis fugiat vero, voluptatem iusto ducimus natus dicta assumenda!
+                    </div>
+
+                    <div className={styles.left_icons}>
+                        <FaCcPaypal />
+                        <SiPaytm />
+                        <BiLogoMastercard />
+                        <FaCcVisa />
+                    </div>
+                </div>
+
+                <div className={styles.right}>
+                    <div className={styles.column}>
+                        <div className={styles.column_heading}>Company</div>
+                        <div className={styles.column_sub_heading}>Company 1</div>
+                        <div className={styles.column_sub_heading}>Company 2</div>
+                        <div className={styles.column_sub_heading}>Company 3</div>
+                        <div className={styles.column_sub_heading}>Company 4</div>
+                    </div>
+                    <div className={styles.column}>
+                        <div className={styles.column_heading}>Company</div>
+                        <div className={styles.column_sub_heading}>Company 1</div>
+                        <div className={styles.column_sub_heading}>Company 2</div>
+                        <div className={styles.column_sub_heading}>Company 3</div>
+                        <div className={styles.column_sub_heading}>Company 4</div>
+                    </div>
+                    <div className={styles.column}>
+                        <div className={styles.column_heading}>Company</div>
+                        <div className={styles.column_sub_heading}>Company 1</div>
+                        <div className={styles.column_sub_heading}>Company 2</div>
+                        <div className={styles.column_sub_heading}>Company 3</div>
+                        <div className={styles.column_sub_heading}>Company 4</div>
+                    </div>
+                    <div className={styles.column}>
+                        <div className={styles.column_heading}>Company</div>
+                        <div className={styles.column_sub_heading}>Company 1</div>
+                        <div className={styles.column_sub_heading}>Company 2</div>
+                        <div className={styles.column_sub_heading}>Company 3</div>
+                        <div className={styles.column_sub_heading}>Company 4</div>
+                    </div>
+
+                </div>
+
             </div>
         </>
     )

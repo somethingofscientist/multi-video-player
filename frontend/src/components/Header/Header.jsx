@@ -18,8 +18,8 @@ const Header = () => {
                 </div>
                 <div className={styles.categories}>
                     <Marquee
-                    // gradient
-                    // gradientColor='black'
+                        gradient
+                        gradientColor='rgb(0, 6, 40)'
                     >
                         <div className={styles.category}>Category</div>
                         <div className={styles.category}>Category</div>

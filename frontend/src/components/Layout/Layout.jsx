@@ -2,12 +2,9 @@ import React, { useRef, useState } from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import styles from './Layout.module.css';
-import jintama from '../../Videos/jintama.mp4'
-import delhi_6 from '../../Videos/6.mp4'
-import sadi from '../../Videos/sadi.mp4'
-import queen from '../../Videos/Queen.mp4'
-import jailer from '../../Videos/jintama.mp4'
-import kabir from '../../Videos/jintama.mp4'
+import jintama0 from '../../Videos/jintama.mp4'
+import jintama1 from '../../Videos/gintama1.mp4'
+import jintama2 from '../../Videos/gintama2.mp4'
 
 import { MdArrowBackIosNew, MdArrowForwardIos } from 'react-icons/md'
 
@@ -40,28 +37,81 @@ const Layout = () => {
 
     // VIDEO ARRAY HERE HARDCODED
     const arr = [
-        { id: 1, title: "Jintama", video: jintama },
-        { id: 2, title: "Delhi 6", video: delhi_6 },
-        { id: 3, title: "Sadi Gali", video: sadi },
-        { id: 4, title: "Queen", video: queen },
-        { id: 5, title: "Jailer", video: jailer },
-        { id: 6, title: "Kabir", video: kabir },
-        { id: 7, title: "Jintama", video: jintama },
-        { id: 8, title: "Delhi 6", video: delhi_6 },
-        { id: 9, title: "Sadi Gali", video: sadi },
-        { id: 10, title: "Queen", video: queen },
-        { id: 11, title: "Jailer", video: jailer },
-        { id: 12, title: "Kabir", video: kabir },
-        { id: 13, title: "Jintama", video: jintama },
-        { id: 14, title: "Delhi 6", video: delhi_6 },
-        { id: 15, title: "Sadi Gali", video: sadi },
-        { id: 16, title: "Queen", video: queen },
-        { id: 17, title: "Jailer", video: jailer },
-        { id: 18, title: "Kabir", video: kabir },
-        { id: 19, title: "Jintama", video: jintama },
-        { id: 20, title: "Delhi 6", video: delhi_6 },
-        { id: 21, title: "Delhi 6", video: delhi_6 },
-        { id: 22, title: "Delhi 6", video: sadi },
+        {
+            id: 1,
+            title: "Gintama 1",
+            video: jintama0,
+        },
+        {
+            id: 2,
+            title: "Gintama 2",
+            video: jintama1,
+        },
+        {
+            id: 3,
+            title: "Gintama 3",
+            video: jintama2,
+        },
+        {
+            id: 1,
+            title: "Gintama 1",
+            video: jintama0,
+        },
+        {
+            id: 2,
+            title: "Gintama 2",
+            video: jintama1,
+        },
+        {
+            id: 3,
+            title: "Gintama 3",
+            video: jintama2,
+        },
+        {
+            id: 1,
+            title: "Gintama 1",
+            video: jintama0,
+        },
+        {
+            id: 2,
+            title: "Gintama 2",
+            video: jintama1,
+        },
+        {
+            id: 3,
+            title: "Gintama 3",
+            video: jintama2,
+        },
+        {
+            id: 1,
+            title: "Gintama 1",
+            video: jintama0,
+        },
+        {
+            id: 2,
+            title: "Gintama 2",
+            video: jintama1,
+        },
+        {
+            id: 3,
+            title: "Gintama 3",
+            video: jintama2,
+        },
+        {
+            id: 1,
+            title: "Gintama 1",
+            video: jintama0,
+        },
+        {
+            id: 2,
+            title: "Gintama 2",
+            video: jintama1,
+        },
+        {
+            id: 3,
+            title: "Gintama 3",
+            video: jintama2,
+        },
     ]
 
     // Pagination
@@ -108,6 +158,7 @@ const Layout = () => {
                                     <video
                                         controls
                                         muted
+                                        autoPlay={true}
                                         loop={true}
                                         src={val.video}
                                     />
