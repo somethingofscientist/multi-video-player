@@ -103,6 +103,10 @@ const Footer = () => {
                         <div className={styles.column_sub_heading}>Company 4</div>
                     </div>
 
+                    {/* New Right */}
+                    <div className={styles.right_heading}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi reiciendis obcaecati repudiandae minima nihil amet optio dolorum, dolorem nisi corrupti blanditiis fugiat vero, voluptatem iusto ducimus natus dicta assumenda!
+                    </div>
                 </div>
 
             </div>

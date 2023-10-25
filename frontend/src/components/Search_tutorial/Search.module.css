@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    /* border: 0.01px solid whitesmoke; */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    height: 95vh;
+}
+
+.search input {
+    /* border: 0.01px solid white; */
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 21px;
+    color: grey;
+}
+
+.list ul li {
+    list-style: none;
+    color: grey;
+}
+
+.list_card{
+    text-align: justify !important;
+    margin: auto;
+    width: 250px;
+    margin-bottom: 20px;
+}
